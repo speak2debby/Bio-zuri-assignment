@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+    font-size: 1.3rem;
+    overflow-x: hidden;
+}
+
+main {
+    margin: 0 2%;
+}
+
+a {
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    font-size: 11px;
+    cursor: pointer;
+    background-color: #04AA6D;
+}
+
+a:hover {
+    background-color: #34a493;
+}
+
+button {
+    margin-bottom: 3rem;
+    background-color: #04AA6D;
+    font-weight: bold;
+    height: 5rem;
+    width: 17rem;
+    border-radius: 1rem 1rem 1rem 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+    border-color: #3cb371;
+}
+
+button:hover {
+    background-color: inputvar(#4b642e);
+}
+
+butt
+/* utility classes */
+
+footer {
+    margin: 3rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer a:hover {
+    color: var(--secondary-color-light);
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-image: url('circle.png'), url('Inverted\ J.png'), url('J.png'), url('angle\ bracket.png');
+        background-position: -1% -15%, 108% -1%, -5% 108%, 107% 105%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 21rem 21rem;
+    }
+}
